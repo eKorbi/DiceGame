@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background-color: rgb(85, 83, 83);
+    font-family: monospace;
+    text-transform: capitalize;
+}
+div{
+    display: inline-block;
+    margin: 0 auto;
+}
+div:nth-child(3){
+    margin-left: 40px;
+}
+h2{
+    color: rgb(85, 214, 139);
+    font-size: 5rem;
+    margin: 5% 0%;
+}
+p{
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+img{
+    width: 200px;
+}
+footer{
+    font-size: 15px;
+    color: white;
+    position: relative;
+    top: 12%;
+}
